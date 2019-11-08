@@ -1,8 +1,8 @@
-from src.Calculator.Division import division
-from src.Calculator.Subtraction import subtraction
+from Calculator.Division import division
+from Calculator.Subtraction import subtraction
 
-from src.Statistics.Mean import mean
-from src.Statistics.StandardDeviation import standard_deviation
+from Statistics.Mean import mean
+from Statistics.StandardDeviation import standard_deviation
 
 def zscore(numbers): #complete
     u = mean(numbers)
