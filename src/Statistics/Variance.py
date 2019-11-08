@@ -1,4 +1,5 @@
 from src.Calculator.Square import square
+
 from src.Statistics.StandardDeviation import standard_deviation
 
 
