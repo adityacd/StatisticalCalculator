@@ -49,6 +49,6 @@ class Statistics(Calculator):
         self.result = confidence_interval(self.data)
         return self.result
 
-    def population_correlation_coefficient(self):
-        self.result = population_correlation_coefficient(self.data)
-        return self.result
+    #def population_correlation_coefficient(self):
+     #   self.result = population_correlation_coefficient(self.data)
+      #  return self.result
