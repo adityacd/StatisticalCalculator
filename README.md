@@ -40,3 +40,7 @@ In statistics, the standard score is the signed fractional number of standard de
 
 ![Z-score-formula](https://user-images.githubusercontent.com/55159276/68551552-0fbdb200-03dc-11ea-99c4-ecef67fe1b4f.jpg)
 
+### Population Correlation Coefficient
+In statistics, the Pearson correlation coefficient, also referred to as Pearson's r, the Pearson product-moment correlation coefficient or the bivariate correlation, is a measure of the linear correlation between two variables X and Y. 
+
+![Correlation-Coefficient-Formula-2](https://user-images.githubusercontent.com/55159276/68551576-5ad7c500-03dc-11ea-9017-da4be046eab1.jpg)
