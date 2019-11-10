@@ -70,3 +70,5 @@ A proportion refers to the fraction of the total that possesses a certain attrib
 
 ![sample standard deviation](https://user-images.githubusercontent.com/55159276/68551746-2533db80-03de-11ea-8200-fe98b13026e7.jpg)
 
+### Variance Of Sample Proportion
+The variance of X/n is equal to the variance of X divided by n², or (np(1-p))/n² = (p(1-p))/n . This formula indicates that as the size of the sample increases, the variance decreases.
