@@ -28,5 +28,6 @@ Mode is the number which appears most often in the set.
 
 ### Standard Deviation
 Standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean of the set, while a high standard deviation indicates that the values are spread out over a wider range.
-![standardDeviation](/dekstop/sd.png)
+![sd](https://user-images.githubusercontent.com/55159276/68551427-e7818380-03da-11ea-80ab-031200f831a7.png)
+
 
