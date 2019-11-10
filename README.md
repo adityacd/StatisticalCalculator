@@ -59,3 +59,5 @@ Population variance (σ2) tells us how data points in a specific population are 
 ### P Value
 p-value or probability value is the probability of obtaining test results at least as extreme as the results actually observed during the test, assuming that the null hypothesis is correct.
 
+### Proportion
+A proportion refers to the fraction of the total that possesses a certain attribute.
