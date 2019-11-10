@@ -56,3 +56,6 @@ Population variance (σ2) tells us how data points in a specific population are 
 
 ![population variance](https://user-images.githubusercontent.com/55159276/68551629-f701cc00-03dc-11ea-82b8-cf9891d5334e.png)
 
+### P Value
+p-value or probability value is the probability of obtaining test results at least as extreme as the results actually observed during the test, assuming that the null hypothesis is correct.
+
