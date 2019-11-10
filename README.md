@@ -19,3 +19,6 @@ where:
 Σ means “the sum of.”
 X = all the individual items in the group.
 N = the number of items in the group.
+
+## Median 
+The median is the middle of the set of numbers.The median is the ((n + 1)/2)th item, where n is the number of values this is for if n is odd. If n is even then we find the value at (n/2) and the value at (n+1/2) and calculate the average of the two values.
