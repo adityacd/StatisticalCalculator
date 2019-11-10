@@ -1,3 +1,4 @@
+from CSVReading.CSVReading import CsvReader
 from Calculator.Calculator import Calculator
 from Statistics.Mean import mean
 from Statistics.Median import median
@@ -14,7 +15,8 @@ class Statistics(Calculator):
     data = []
     result = 0
 
-    def __init__(self):
+    def __init__(self, filepath):
+        self.data = CsvReader('Data/StatData.csv').data
         super().__init__()
 
     def population_mean(self):
