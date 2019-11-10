@@ -1,7 +1,13 @@
-from Statistics.Sample_method import sample_method
 from Statistics.Mean import mean
+from Statistics.sample import getSample
+
+import random
+import statistics
 
 
-def sample_mean(numbers):
-    sample_list1 = sample_method(numbers)
-    return mean(sample_list1)
+def samp_mean(numbers):
+    ss = random.randint(1, len(numbers))
+    new_values = getSample(numbers, ss)
+    n = round(mean(new_values), 5)
+    actual_mean = round(statistics.mean(new_values), 5)  # to compare calculated result
+    return n, actual_mean
