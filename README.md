@@ -34,3 +34,9 @@ Standard deviation is a measure of the amount of variation or dispersion of a se
 ### Variance of population proportion
 A population proportion, is a parameter that describes a percentage value associated with a population.A population proportion is usually estimated through an unbiased sample statistic obtained from an observational study or experiment. 
 
+### Z score
+In statistics, the standard score is the signed fractional number of standard deviations by which the value of an observation or data point is above the mean value of what is being observed or measured. 
+
+
+![Z-score-formula](https://user-images.githubusercontent.com/55159276/68551552-0fbdb200-03dc-11ea-99c4-ecef67fe1b4f.jpg)
+
