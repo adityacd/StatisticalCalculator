@@ -28,5 +28,5 @@ Mode is the number which appears most often in the set.
 
 ### Standard Deviation
 Standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean of the set, while a high standard deviation indicates that the values are spread out over a wider range.
-![standardDeviation](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjzrdaqzuDlAhUCJt8KHRCzDm0QjRx6BAgBEAQ&url=https%3A%2F%2Frevisionmaths.com%2Fgcse-maths-revision%2Fstatistics-handling-data%2Fstandard-deviation&psig=AOvVaw1-TJeXzXUvsxPP7Ib9bF71&ust=1573508564441155)
+[standardDeviation](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjzrdaqzuDlAhUCJt8KHRCzDm0QjRx6BAgBEAQ&url=https%3A%2F%2Frevisionmaths.com%2Fgcse-maths-revision%2Fstatistics-handling-data%2Fstandard-deviation&psig=AOvVaw1-TJeXzXUvsxPP7Ib9bF71&ust=1573508564441155)
 
