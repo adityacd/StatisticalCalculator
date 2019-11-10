@@ -28,6 +28,9 @@ Mode is the number which appears most often in the set.
 
 ### Standard Deviation
 Standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean of the set, while a high standard deviation indicates that the values are spread out over a wider range.
+
 ![sd](https://user-images.githubusercontent.com/55159276/68551427-e7818380-03da-11ea-80ab-031200f831a7.png)
 
+### Variance of population proportion
+A population proportion, is a parameter that describes a percentage value associated with a population.A population proportion is usually estimated through an unbiased sample statistic obtained from an observational study or experiment. 
 
