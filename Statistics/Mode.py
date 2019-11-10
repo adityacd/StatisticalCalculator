@@ -6,4 +6,4 @@ def mode(numbers): #complete
     m = max(lst)
     for x in numbers:
         if numbers.count(x) == m:
-            return print('Mode is', x)
+            return x

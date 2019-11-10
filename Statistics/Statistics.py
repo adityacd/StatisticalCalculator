@@ -25,32 +25,31 @@ class Statistics(Calculator):
     def population_median(self, a):
         self.result = median(a)
         return self.result
-"""
-    def population_mode(self):
-        self.result = mode(self.data)
+
+    def population_mode(self, a):
+        self.result = mode(a)
         return self.result
 
-    def population_variance(self):
-        self.result = variance(self.data)
+    def population_variance(self, a):
+        self.result = variance(a)
         return self.result
 
-    def population_standard_deviation(self):
-        self.result = standard_deviation(self.data)
+    def population_standard_deviation(self, a):
+        self.result = standard_deviation(a)
         return self.result
 
-    def population_proportion(self):
-        self.result = proportion(self.data)
+    def population_proportion(self, a):
+        self.result = proportion(a)
         return self.result
 
-    def population_z_score(self):
-        self.result = zscore(self.data)
+    def population_z_score(self, a):
+        self.result = zscore(a)
         return self.result
 
-    def population_confidence_interval(self):
-        self.result = confidence_interval(self.data)
+    def population_confidence_interval(self, a):
+        self.result = confidence_interval(a)
         return self.result
 
     # def population_correlation_coefficient(self):
     #   self.result = population_correlation_coefficient(self.data)
     #  return self.result
-"""
