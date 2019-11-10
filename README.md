@@ -3,3 +3,9 @@
 # Statistical Calculator
 
 # Calculator
+
+## Team Members
+* Aditya Deshmukh UCID: acd53
+* karan kaul UCID: kk629
+
+# Function
