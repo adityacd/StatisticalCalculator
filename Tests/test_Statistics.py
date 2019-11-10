@@ -25,3 +25,47 @@ class MyTestCase(unittest.TestCase):
         for column in answer:
             result = float((column['Mean']))
         self.assertEqual(self.statistics.population_mean(dataset), result)
+
+    def test_Median_calculator(self):
+        test_data = CsvReader('Data/StatData.csv').data
+        answer = CsvReader('Data/StatDataAnswers.csv').data
+        dataset = []
+        for row in test_data:
+            y = int(row['Value 1'])
+            dataset.append(y)
+        for column in answer:
+            result = float((column['Median']))
+        self.assertEqual(self.statistics.population_median(dataset), result)
+
+    def test_Mode_calculator(self):
+        test_data = CsvReader('Data/StatData.csv').data
+        answer = CsvReader('Data/StatDataAnswers.csv').data
+        dataset = []
+        for row in test_data:
+            y = int(row['Value 1'])
+            dataset.append(y)
+        for column in answer:
+            result = float((column['Mode']))
+        self.assertEqual(self.statistics.population_mode(dataset), result)
+
+    def test_Population_Standard_Deviation_calculator(self):
+        test_data = CsvReader('Data/StatData.csv').data
+        answer = CsvReader('Data/StatDataAnswers.csv').data
+        dataset = []
+        for row in test_data:
+            y = int(row['Value 1'])
+            dataset.append(y)
+        for column in answer:
+            result = float((column['StanDeviation']))
+        self.assertEqual(self.statistics.population_standard_deviation(dataset), result)
+
+    def test_Population_Variance_calculator(self):
+        test_data = CsvReader('Data/StatData.csv').data
+        answer = CsvReader('Data/StatDataAnswers.csv').data
+        dataset = []
+        for row in test_data:
+            y = int(row['Value 1'])
+            dataset.append(y)
+        for column in answer:
+            result = float((column['Variance']))
+        self.assertEqual(self.statistics.population_variance(dataset), result)
