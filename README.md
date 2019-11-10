@@ -44,3 +44,9 @@ In statistics, the standard score is the signed fractional number of standard de
 In statistics, the Pearson correlation coefficient, also referred to as Pearson's r, the Pearson product-moment correlation coefficient or the bivariate correlation, is a measure of the linear correlation between two variables X and Y. 
 
 ![Correlation-Coefficient-Formula-2](https://user-images.githubusercontent.com/55159276/68551576-5ad7c500-03dc-11ea-9017-da4be046eab1.jpg)
+
+### Confidence Interval
+A confidence interval is a type of interval estimate, computed from the statistics of the observed data, that might contain the true value of an unknown population parameter.
+
+
+![confidence interval](https://user-images.githubusercontent.com/55159276/68551609-b6a24e00-03dc-11ea-86d7-9ce604501f7b.png)
