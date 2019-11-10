@@ -50,3 +50,9 @@ A confidence interval is a type of interval estimate, computed from the statisti
 
 
 ![confidence interval](https://user-images.githubusercontent.com/55159276/68551609-b6a24e00-03dc-11ea-86d7-9ce604501f7b.png)
+
+### Population Variance
+Population variance (σ2) tells us how data points in a specific population are spread out. It is the average of the distances from each data point in the population to the mean, squared.
+
+![population variance](https://user-images.githubusercontent.com/55159276/68551629-f701cc00-03dc-11ea-82b8-cf9891d5334e.png)
+
