@@ -13,20 +13,19 @@ from Statistics.ZScore import zscore
 
 class Statistics(Calculator):
     data = []
-    result = 0
 
     def __init__(self, filepath):
         self.data = CsvReader('Data/StatData.csv').data
         super().__init__()
 
-    def population_mean(self):
-        self.result = mean(self.data)
+    def population_mean(self, a):
+        self.result = mean(a)
         return self.result
 
-    def population_median(self):
-        self.result = median(self.data)
+    def population_median(self, a):
+        self.result = median(a)
         return self.result
-
+"""
     def population_mode(self):
         self.result = mode(self.data)
         return self.result
@@ -51,6 +50,7 @@ class Statistics(Calculator):
         self.result = confidence_interval(self.data)
         return self.result
 
-    #def population_correlation_coefficient(self):
-     #   self.result = population_correlation_coefficient(self.data)
-      #  return self.result
+    # def population_correlation_coefficient(self):
+    #   self.result = population_correlation_coefficient(self.data)
+    #  return self.result
+"""
