@@ -9,6 +9,8 @@ from Statistics.Variance import variance
 from Statistics.Population_corelation_coefficient import population_correlation_coefficient
 from Statistics.Confidence_interval import confidence_interval
 from Statistics.ZScore import zscore
+from Statistics.Sample_Standev import samp_st_dev
+from Statistics.Sample_mean import samp_mean
 
 
 class Statistics(Calculator):
@@ -48,6 +50,14 @@ class Statistics(Calculator):
 
     def population_confidence_interval(self, a):
         self.result = confidence_interval(a)
+        return self.result
+
+    def sampstdev(self, a):
+        self.result = samp_st_dev(a)
+        return self.result
+
+    def samplemean(self, a):
+        self.result = samp_mean(a)
         return self.result
 
     # def population_correlation_coefficient(self):

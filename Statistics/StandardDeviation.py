@@ -16,5 +16,3 @@ def standard_deviation(numbers):  # complete
         t = addition(square(c), t)
     x = division((n - 1), t)
     return root(x)
-
-#abcdefhhkjkjdljclk
