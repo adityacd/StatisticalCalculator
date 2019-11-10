@@ -61,3 +61,9 @@ p-value or probability value is the probability of obtaining test results at lea
 
 ### Proportion
 A proportion refers to the fraction of the total that possesses a certain attribute.
+
+### Sample Mean
+ The arithmetic mean, or simply the mean or average when the context is clear, is the sum of a collection of numbers divided by the count of numbers in the collection.
+ ( Σ xi ) / n is the formulae to find sample mean.
+ 
+ 
