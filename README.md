@@ -66,4 +66,7 @@ A proportion refers to the fraction of the total that possesses a certain attrib
  The arithmetic mean, or simply the mean or average when the context is clear, is the sum of a collection of numbers divided by the count of numbers in the collection.
  ( Σ xi ) / n is the formulae to find sample mean.
  
- 
+ ### Sample Standard Deviation
+
+![sample standard deviation](https://user-images.githubusercontent.com/55159276/68551746-2533db80-03de-11ea-8200-fe98b13026e7.jpg)
+
