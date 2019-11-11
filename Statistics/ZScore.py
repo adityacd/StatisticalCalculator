@@ -12,7 +12,7 @@ def zscore(numbers):  # complete
     zsc = []
     for i in range(0, n, 1):
         z = 0
-        z = float(division(sig, subtraction(u, numbers[i])))
+        z = round(float(division(sig, subtraction(u, numbers[i]))), 3)
         # z = float((numbers[i] - u) / sig)
         zsc.append(z)
-    return print('Zscore is', zsc)
+    return zsc

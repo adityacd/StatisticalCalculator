@@ -1,9 +1,13 @@
+from Calculator.Division import division
 from Calculator.Addition import addition
 
 
-def proportion(numbers):
-    proportion_list = []
-    for g in numbers:
-        h = g / addition(numbers)
-        proportion_list.append(h)
-    return proportion_list
+def proportion(lst):
+    t = 0
+
+    for n in lst:
+        if (n % 2) == 0:
+            t = addition(t, 1)
+        value = division(t, len(lst))
+    return value
+

@@ -103,5 +103,27 @@ class MyTestCase(unittest.TestCase):
             dataset.append(y)
         x, z = self.statobj.samplemean(dataset)
         #z = self.statobj.samplemean(dataset)
-
         self.assertEqual(x, z)
+
+    """
+    def test_z_score_calculator(self):
+        print('Testing ZScore')
+        test_data = CsvReader('Data/StatData.csv').data
+        for row in test_data:
+            y = int(row['Value 1'])
+            result = float(row['Result'])
+            self.assertEqual(self.statobj.z_score(y), result)
+"""
+"""
+    def test_proportion_calculator(self):
+        test_data = CsvReader('Data/StatData.csv').data
+        answer = CsvReader('Data/StatDataAnswers.csv').data
+        dataset = []
+        for row in test_data:
+            y = int(row['Value 1'])
+            dataset.append(y)
+        for column in answer:
+            result = float((column['proportion']))
+        self.assertEqual(self.statobj.proportion(dataset), result)
+"""
+

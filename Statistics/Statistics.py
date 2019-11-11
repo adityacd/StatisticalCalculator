@@ -60,6 +60,13 @@ class Statistics(Calculator):
         self.result = samp_mean(a)
         return self.result
 
+    def proportion(self, a):
+        self.result = proportion(a)
+        return self.result
+
+    def z_score(self, a):
+        self.result = zscore(a)
+        return self.result
     # def population_correlation_coefficient(self):
     #   self.result = population_correlation_coefficient(self.data)
     #  return self.result
