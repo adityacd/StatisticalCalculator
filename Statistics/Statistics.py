@@ -67,6 +67,7 @@ class Statistics(Calculator):
     def z_score(self, a):
         self.result = zscore(a)
         return self.result
-    # def population_correlation_coefficient(self):
-    #   self.result = population_correlation_coefficient(self.data)
-    #  return self.result
+
+    def population_correlation_coefficient(self, a, b):
+        self.result = population_correlation_coefficient(a, b)
+        return self.result
