@@ -94,7 +94,7 @@ class MyTestCase(unittest.TestCase):
         z = round(z, 3)
         self.assertEqual(x, z)
 
-    def test_Sample_Mean_calculator(self):
+    def test_Sample_Mean_calculator(self): #complete
         print(' ')
         print('Testing Sample Mean')
         test_data = CsvReader('Data/StatData.csv').data
@@ -122,7 +122,7 @@ class MyTestCase(unittest.TestCase):
         #pprint(self.statobj.z_score(dataset))
         self.assertEqual(self.statobj.z_score(dataset), data_answer1)
 
-    def population_correlation_coefficient(self):
+    def test_population_correlation_coefficient(self):
         print(' ')
         print('Testing Population Correlation Coefficient')
         test_data = CsvReader('Data/StatData.csv').data
@@ -131,13 +131,13 @@ class MyTestCase(unittest.TestCase):
         for row in test_data:
             y = int(row['Value 1'])
             dataset.append(y)
-        pprint(dataset)
+        #pprint(dataset)
         dataset2 = []
         for row in test_data2:
-            k = float(row['data1'])
+            k = float(row['Result'])
             dataset2.append(k)
-        pprint(dataset2)
-        pprint(self.statobj.population_correlation_coefficient(dataset, dataset2))
+        #pprint(dataset2)
+        return self.statobj.population_correlation_coefficient(dataset, dataset2)
 
 
 
