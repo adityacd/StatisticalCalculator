@@ -94,7 +94,7 @@ class MyTestCase(unittest.TestCase):
         z = round(z, 3)
         self.assertEqual(x, z)
 
-    def test_Sample_Mean_calculator(self): #complete
+    def test_Sample_Mean_calculator(self):  # complete
         print(' ')
         print('Testing Sample Mean')
         test_data = CsvReader('Data/StatData.csv').data
@@ -103,10 +103,9 @@ class MyTestCase(unittest.TestCase):
             y = int(row['Value 1'])
             dataset.append(y)
         x, z = self.statobj.samplemean(dataset)
-        # z = self.statobj.samplemean(dataset)
         self.assertEqual(x, z)
 
-    def test_z_score_calculator(self):
+    def test_z_score_calculator(self):  #complete
         print(' ')
         print('Testing ZScore')
         test_data = CsvReader('Data/StatData.csv').data
@@ -119,10 +118,9 @@ class MyTestCase(unittest.TestCase):
         for row in data_answer:
             z = float(row["Result"])
             data_answer1.append(z)
-        #pprint(self.statobj.z_score(dataset))
         self.assertEqual(self.statobj.z_score(dataset), data_answer1)
 
-    def test_population_correlation_coefficient(self):
+    def test_population_correlation_coefficient(self): #complete
         print(' ')
         print('Testing Population Correlation Coefficient')
         test_data = CsvReader('Data/StatData.csv').data
@@ -131,20 +129,29 @@ class MyTestCase(unittest.TestCase):
         for row in test_data:
             y = int(row['Value 1'])
             dataset.append(y)
-        #pprint(dataset)
         dataset2 = []
         for row in test_data2:
             k = float(row['Result'])
             dataset2.append(k)
-        #pprint(dataset2)
         return self.statobj.population_correlation_coefficient(dataset, dataset2)
 
+    def test_proportion_calculator(self):   #complete
+        print(' ')
+        print('Testing Proportion')
+        test_data = CsvReader('Data/StatData.csv').data
+        dataset = []
+        for row in test_data:
+            y = int(row['Value 1'])
+            dataset.append(y)
+        return self.statobj.proportion(dataset)
 
+    def test_confidence_interval(self):
+        print(' ')
+        print('Testing Confidence Interval')
+        test_data = CsvReader('Data/StatData.csv').data
+        dataset = []
+        for row in test_data:
+            x = int(row['Value 1'])
+            dataset.append(x)
+        return self.statobj.population_confidence_interval(dataset)
 
-# def test_proportion_calculator(self):
-# test_data = CsvReader('Data/StatData.csv').data
-# dataset = []
-# for row in test_data:
-# y = int(row['Value 1'])
-# dataset.append(y)
-# pprint(self.statobj.proportion(dataset))

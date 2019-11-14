@@ -71,3 +71,4 @@ class Statistics(Calculator):
     def population_correlation_coefficient(self, a, b):
         self.result = population_correlation_coefficient(a, b)
         return self.result
+
