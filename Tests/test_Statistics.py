@@ -155,3 +155,12 @@ class MyTestCase(unittest.TestCase):
             dataset.append(x)
         return self.statobj.population_confidence_interval(dataset)
 
+    def test_variance_of_population_proportion(self):
+        print(' ')
+        print('Testing variance of population proportion')
+        test_data = CsvReader('Data/StatData.csv').data
+        dataset = []
+        for row in test_data:
+            x = int(row['Value 1'])
+            dataset.append(x)
+        return self.statobj.variance_of_population_proportion(dataset)

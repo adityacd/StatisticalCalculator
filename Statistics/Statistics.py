@@ -11,6 +11,7 @@ from Statistics.Confidence_interval import confidence_interval
 from Statistics.ZScore import zscore
 from Statistics.Sample_Standev import samp_st_dev
 from Statistics.Sample_mean import samp_mean
+from Statistics.Variance_of_population_proportion import variance_of_population_proportion
 
 
 class Statistics(Calculator):
@@ -71,4 +72,9 @@ class Statistics(Calculator):
     def population_correlation_coefficient(self, a, b):
         self.result = population_correlation_coefficient(a, b)
         return self.result
+
+    def variance_of_population_proportion(self, a):
+        self.result = variance_of_population_proportion(a)
+        return self.result
+
 
