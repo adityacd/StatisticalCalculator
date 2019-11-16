@@ -173,7 +173,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_variance_of_population_proportion(self): #complete
         print(' ')
-        print('Testing variance of population proportion')
+        print('Testing Variance of Population Proportion')
         test_data = CsvReader('Data/StatData.csv').data
         ans = CsvReader('Data/StatDataAnswers.csv').data
         dataset = []
