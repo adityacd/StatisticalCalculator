@@ -15,38 +15,38 @@
 |d91d985| Karan Kaul                |11-14-2019     |        Feature: Added variance of population proportion                                                
 |860fb7c| Aditya Deshmukh           |11-14-2019     |      Fix: Syntax fix                                                  |
 |e64c298| Aditya Deshmukh           |11-14-2019     |     Feature: Created confidence interval and testing                                                   |
-|8370eb7| Aditya Deshmukh           |11-14-2019     |                                                        |
-|1d1abca| Aditya Deshmukh           |11-12-2019     |                                                        |
-|8060f20| Aditya Deshmukh           |11-12-2019     |                                                        |
-|dd98b7b| Karan Kaul                |11-12-2019     |                                                        |
-|211c9ac| Karan kaul                |11-10-2019     |                                                        |
-|99d43be| Aditya Deshmukh           |11-10-2019     |                                                        |
-|d0744ea| Aditya Deshmukh           |11-10-2019     |                                                        |
-|8fd96e4| Aditya Deshmukh           |11-10-2019     |                                                        |
-|a6a27b3| Aditya Deshmukh           |11-10-2019     |                                                        |
-|c86403b| Aditya Deshmukh           |11-10-2019     |                                                        |
-|c11e238| Karan Kaul                |11-10-2019     |                                                        |
-|ccd6530| Karan Kaul                |11-10-2019     |                                                        |
-|95f68e2| Karan Kaul                |11-10-2019     |                                                        |
-|a0267fb| Aditya Deshmukh           |11-10-2019     |                                                        |
-|36ec253| Aditya Deshmukh           |11-10-2019     |                                                        |
-|14b1015| Aditya Deshmukh           |11-10-2019     |                                                        |
-|e1583ec| Aditya Deshmukh           |11-10-2019     |                                                        |
-|38f781b| Aditya Deshmukh           |11-10-2019     |                                                        |
-|9181e7b| Karan Kaul                |11-10-2019     |                                                        |
-|32f159c| Karan Kaul                |11-10-2019     |                                                        |
-|8b525ce| Karan Kaul                |11-10-2019     |                                                        |
-|b25b578| Karan Kaul                |11-10-2019     |                                                        |
-|80c856f| Karan Kaul                |11-10-2019     |                                                        |
-|629eb82| Karan Kaul                |11-10-2019     |                                                        |
-|bc9abc1| Karan Kaul                |11-10-2019     |                                                        |
-|c2b56d6| Karan Kaul                |11-10-2019     |                                                        |
-|967c5f3| Karan Kaul                |11-10-2019     |                                                        |
-|94f4112| Karan Kaul                |11-10-2019     |                                                        |
-|9234b8e| Karan Kaul                |11-10-2019     |                                                        |
-|561f941| Karan Kaul                |11-10-2019     |                                                        |
-|f38b193| Aditya Deshmukh           |11-10-2019     |                                                        |
-|4f4c202| Aditya Deshmukh           |11-10-2019     |                                                        |
+|8370eb7| Aditya Deshmukh           |11-14-2019     |  Feature: Created Proportion and testing                                                      |
+|1d1abca| Aditya Deshmukh           |11-12-2019     |      Task: Tested the population proportion coefficient                                                  |
+|8060f20| Aditya Deshmukh           |11-12-2019     |   Fix: Fix the data error                                                     |
+|dd98b7b| Karan Kaul                |11-12-2019     | Feature: Added Population Correlation and testing                                                       |
+|211c9ac| Karan kaul                |11-10-2019     |  Fix: Updated Readme.md                                                      |
+|99d43be| Aditya Deshmukh           |11-10-2019     |  Fix: Added the sample.py                                                      |
+|d0744ea| Aditya Deshmukh           |11-10-2019     |     Merge branch 'master' of https://github.com/adityacd/StatisticalCalcu…                                                   |
+|8fd96e4| Aditya Deshmukh           |11-10-2019     |     Fix: Fixed syntax errors                                                   |
+|a6a27b3| Aditya Deshmukh           |11-10-2019     |   Task: Added the Zscore in StatData.csv                                                     |
+|c86403b| Aditya Deshmukh           |11-10-2019     |    Task: Added the ZScore.csv                                                    |
+|c11e238| Karan Kaul                |11-10-2019     |   Feature:- made change log                                                     |
+|ccd6530| Karan Kaul                |11-10-2019     |     Merge branch 'master' of https://github.com/adityacd/StatisticalCalcu…                                                   |
+|95f68e2| Karan Kaul                |11-10-2019     |     Fix:- fixed variance of population proportion                                                   |
+|a0267fb| Aditya Deshmukh           |11-10-2019     |  Fix: Deleted the error file                                                      |
+|36ec253| Aditya Deshmukh           |11-10-2019     |         Merge branch 'master' of https://github.com/adityacd/StatisticalCalcu…                                               |
+|14b1015| Aditya Deshmukh           |11-10-2019     |   Feature: Setup the Sample                                                     |
+|e1583ec| Aditya Deshmukh           |11-10-2019     |   Feature: Setup the Sample mean func and test                                                     |
+|38f781b| Aditya Deshmukh           |11-10-2019     |     Feature: Setup the Sample standard deviation func and test                                                   |
+|9181e7b| Karan Kaul                |11-10-2019     |   Feature:- Added variance of sample proportion                                                     |
+|32f159c| Karan Kaul                |11-10-2019     |   Feature:- Added sample standard deviation                                                     |
+|8b525ce| Karan Kaul                |11-10-2019     |      Feature:- Added definition of sample mean                                                  |
+|b25b578| Karan Kaul                |11-10-2019     |     Feature:- Added proportion definition                                                   |
+|80c856f| Karan Kaul                |11-10-2019     |  Feature:- Added P value Definition                                                      |
+|629eb82| Karan Kaul                |11-10-2019     |        Feature:- Added population variance                                                |
+|bc9abc1| Karan Kaul                |11-10-2019     | Feature:- added confidence interval                                                       |
+|c2b56d6| Karan Kaul                |11-10-2019     |    Feature:- Added population correlation coefficient                                                    |
+|967c5f3| Karan Kaul                |11-10-2019     |    Feature:- added z score                                                    |
+|94f4112| Karan Kaul                |11-10-2019     |     Feature:- Added variance of population proportion                                                   |
+|9234b8e| Karan Kaul                |11-10-2019     |        fix:- Updated readme                                                |
+|561f941| Karan Kaul                |11-10-2019     |          Fix:- Updated standard deviation                                              |
+|f38b193| Aditya Deshmukh           |11-10-2019     |               Merge branch 'master' of https://github.com/adityacd/StatisticalCalcu…                                          |
+|4f4c202| Aditya Deshmukh           |11-10-2019     |      Feature: Setup the test for median,mode,standard deviation,variance                                                  |
 |bb56cba| Aditya Deshmukh           |11-10-2019     |                                                        |
 |3c02fd5| karan Kaul                |11-10-2019     |                                                        |
 |1331400| Karan Kaul                |11-10-2019     |                                                        |
