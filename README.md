@@ -8,6 +8,98 @@
 * Aditya Deshmukh UCID: acd53
 * karan kaul UCID: kk629
 
+## Change Log
+
+| Hash  | User                      | Date          |          Changelog                                             |                                              
+|-------|---------------------------|---------------|------------------------------------------------------------------|
+|d91d985| Karan Kaul                |11-14-2019     |        Feature: Added variance of population proportion                                                
+|860fb7c| Aditya Deshmukh           |11-14-2019     |      Fix: Syntax fix                                                  |
+|e64c298| Aditya Deshmukh           |11-14-2019     |     Feature: Created confidence interval and testing                                                   |
+|8370eb7| Aditya Deshmukh           |11-14-2019     |  Feature: Created Proportion and testing                                                      |
+|1d1abca| Aditya Deshmukh           |11-12-2019     |      Task: Tested the population proportion coefficient                                                  |
+|8060f20| Aditya Deshmukh           |11-12-2019     |   Fix: Fix the data error                                                     |
+|dd98b7b| Karan Kaul                |11-12-2019     | Feature: Added Population Correlation and testing                                                       |
+|211c9ac| Karan kaul                |11-10-2019     |  Fix: Updated Readme.md                                                      |
+|99d43be| Aditya Deshmukh           |11-10-2019     |  Fix: Added the sample.py                                                      |
+|d0744ea| Aditya Deshmukh           |11-10-2019     |     Merge branch 'master' of https://github.com/adityacd/StatisticalCalcu…                                                   |
+|8fd96e4| Aditya Deshmukh           |11-10-2019     |     Fix: Fixed syntax errors                                                   |
+|a6a27b3| Aditya Deshmukh           |11-10-2019     |   Task: Added the Zscore in StatData.csv                                                     |
+|c86403b| Aditya Deshmukh           |11-10-2019     |    Task: Added the ZScore.csv                                                    |
+|c11e238| Karan Kaul                |11-10-2019     |   Feature:- made change log                                                     |
+|ccd6530| Karan Kaul                |11-10-2019     |     Merge branch 'master' of https://github.com/adityacd/StatisticalCalcu…                                                   |
+|95f68e2| Karan Kaul                |11-10-2019     |     Fix:- fixed variance of population proportion                                                   |
+|a0267fb| Aditya Deshmukh           |11-10-2019     |  Fix: Deleted the error file                                                      |
+|36ec253| Aditya Deshmukh           |11-10-2019     |         Merge branch 'master' of https://github.com/adityacd/StatisticalCalcu…                                               |
+|14b1015| Aditya Deshmukh           |11-10-2019     |   Feature: Setup the Sample                                                     |
+|e1583ec| Aditya Deshmukh           |11-10-2019     |   Feature: Setup the Sample mean func and test                                                     |
+|38f781b| Aditya Deshmukh           |11-10-2019     |     Feature: Setup the Sample standard deviation func and test                                                   |
+|9181e7b| Karan Kaul                |11-10-2019     |   Feature:- Added variance of sample proportion                                                     |
+|32f159c| Karan Kaul                |11-10-2019     |   Feature:- Added sample standard deviation                                                     |
+|8b525ce| Karan Kaul                |11-10-2019     |      Feature:- Added definition of sample mean                                                  |
+|b25b578| Karan Kaul                |11-10-2019     |     Feature:- Added proportion definition                                                   |
+|80c856f| Karan Kaul                |11-10-2019     |  Feature:- Added P value Definition                                                      |
+|629eb82| Karan Kaul                |11-10-2019     |        Feature:- Added population variance                                                |
+|bc9abc1| Karan Kaul                |11-10-2019     | Feature:- added confidence interval                                                       |
+|c2b56d6| Karan Kaul                |11-10-2019     |    Feature:- Added population correlation coefficient                                                    |
+|967c5f3| Karan Kaul                |11-10-2019     |    Feature:- added z score                                                    |
+|94f4112| Karan Kaul                |11-10-2019     |     Feature:- Added variance of population proportion                                                   |
+|9234b8e| Karan Kaul                |11-10-2019     |        fix:- Updated readme                                                |
+|561f941| Karan Kaul                |11-10-2019     |          Fix:- Updated standard deviation                                              |
+|f38b193| Aditya Deshmukh           |11-10-2019     |               Merge branch 'master' of https://github.com/adityacd/StatisticalCalcu…                                          |
+|4f4c202| Aditya Deshmukh           |11-10-2019     |      Feature: Setup the test for median,mode,standard deviation,variance                                                  |
+|bb56cba| Aditya Deshmukh           |11-10-2019     |    Fix: Syntax Fixes                                                    |
+|3c02fd5| karan Kaul                |11-10-2019     |      Fix:- Fixed standard deviation definiton                                                  |
+|1331400| Karan Kaul                |11-10-2019     |       Feature:- Added standard deviation definition                                                 |
+|a87a63e| Karan Kaul                |11-10-2019     |        Feature:- added definition of mode                                                |
+|0dd0a57| Karan Kaul                |11-10-2019     |   Feature:- added definition of median                                                     |
+|1935c8e| Karan Kaul                |11-10-2019     |   Fix:- updated readme                                                     |
+|cf665ee| Karan Kaul                |11-10-2019     |     Feature:- Added population mean definition                                                   |
+|a6b63a3| Karan Kaul                |11-10-2019     |   Feature:- Added functions definition                                                     |
+|17c27e8| Karan Kaul                |11-10-2019     |    Feature:- Added team members name                                                    |
+|3824635| Karan Kaul                |11-10-2019     |      Fix:- fixed variance of population proportion                                                  |
+|430ade0| Karan Kaul                |11-10-2019     |   Feature:- Added variance of population proportion                                                     |
+|d29a24a| Karan Kaul                |11-10-2019     |    Fix: Loop issue solved and updated                                                    |
+|92dfa58| Aditya Deshmukh           |11-10-2019     |     Fix: Dataset syntax error solved                                                   |
+|eb569ae| Aditya Deshmukh           |11-10-2019     |     Fix: Fixed the code                                                   |
+|d855cbd| Aditya Deshmukh           |11-10-2019     |   Task: Tested the mean statistics with dataset                                                     |
+|d63067c| Aditya Deshmukh           |11-10-2019     |   Task: Csv dataset initialized                                                     |
+|ef8a39a| Aditya Deshmukh           |11-10-2019     |  Fix: Code Fix                                                      |
+|e577f83| Aditya Deshmukh           |11-10-2019     |  Task: Added the StatDataAnswers.csv                                                      |
+|c689718| Aditya Deshmukh           |11-10-2019     |    Task: Created StatDataset                                                    |
+|faaf508| Aditya Deshmukh           |11-10-2019     |    Feature: Created and Setup the Statistics.py                                                    |
+|38e4a01| Aditya Deshmukh           |11-10-2019     |           Fix: Fix in csvtest                                             |
+|5c7a5de| Aditya Deshmukh           |11-10-2019     |           Fix: Fix in csvreading                                             |
+|e59b787| Aditya Deshmukh           |11-10-2019     |        Fix: Fix in csvtest                                                |
+|9b39fbd| Aditya Deshmukh           |11-10-2019     |        Fix: Fix in csvtest                                                |
+|782d2fe| Aditya Deshmukh           |11-10-2019     |      Merge remote-tracking branch 'origin/master'                                                  |
+|57611e9| Aditya Deshmukh           |11-10-2019     |    Fix: Fix in csvtest                                                    |
+|bbe8295| Aditya Deshmukh           |11-10-2019     |       Merge pull request                                                  |
+|daf7e02| Aditya Deshmukh           |11-10-2019     |   Feature: Added the CSVReading test                                                     |
+|7d14cbc| Aditya Deshmukh           |11-10-2019     |       Merge pull request #3                                                 |
+|9204a9e| Karan Kaul                |11-10-2019     |   Feature:- Added Population corelation coefficient                                                     |
+|78017f1| Aditya Deshmukh           |11-10-2019     |                 Merge pull request #2                                        |
+|338fcf2| Karan Kaul                |11-10-2019     |  Feature:- Added Confidenceinterval                                                      |
+|c1a3639| Aditya Deshmukh           |11-10-2019     |Merge pull request #1                                                        |
+|510054e| Karan Kaul                |11-10-2019     |  Feature:- Added proportion                                                      |
+|49f7fae| Karan Kaul                |11-10-2019     |    Feature:- Added sampleMean                                                    |
+|be2e5b1| Karan Kaul                |11-10-2019     |    Feature:- Added sample_method.py                                                    |
+|6afb7f1| Karan Kaul                |11-10-2019     |      Merge remote-tracking branch 'origin/master'                                                  |
+|ff3c279| Karan Kaul                |11-10-2019     |   Fix: testing                                                     |
+|0ffaaee| Aditya Deshmukh           |11-08-2019     | Merge remote-tracking branch 'origin/master'                       |
+|e275691| Aditya Deshmukh           |11-08-2019     |Task: Created and setup the test_decorators.py file                 |
+|4e51c16| Aditya Deshmukh           |11-08-2019     |ask: Created __init__.py file                                       |
+|257b284| Aditya Deshmukh           |11-08-2019     |Task: Added the travis.ci to the readme                             |
+|b6e4c6f| Aditya Deshmukh           |11-08-2019     |Fix: Fixed the filepath                                             |
+|1d6eafb| Aditya Deshmukh           |11-08-2019     | Fix: Rearranged the directories                                    |    
+|1f4f640| Aditya Deshmukh           |11-08-2019     |Task: Setup setup.py                                                |
+|49e18bc| Aditya Deshmukh           |11-08-2019     |Task: Setup Dockerfile                                              |
+|acb594c| Aditya Deshmukh           |11-08-2019     |Task: Setup .travis.yml                                             |
+|9d0c453| Aditya Deshmukh           |11-08-2019     |Task: Readme update                                                 |
+|9e5782b| Aditya Deshmukh           |11-08-2019     |Merge remote-tracking branch 'origin/master'                        |
+|27d9566| Aditya Deshmukh           |11-08-2019     |Task: Readme update                                                 |
+|bdbbdec| Aditya Deshmukh           |11-08-2019     |Delete README.md                                                    |
+|574123d| Aditya Deshmukh           |11-08-2019     |Task: Readme update                                                 |
+
 ### Function
 Python has functions, which is a group of connected statements that carry out a particular task. Functions help break our program into little and modular chunks. Since the program becomes  larger as it progresses functions make it more organized,systematic and manageable. Also funtions help avoid repetition and helps make the code more reusable. 
 
