@@ -155,10 +155,8 @@ class MyTestCase(unittest.TestCase):
             expect_result = float((column['Proportion']))
         self.assertEqual(self.statobj.proportion(dataset), expect_result)
         self.assertEqual(self.statobj.result, expect_result)
-        # x = self.statobj.proportion(dataset)
-        # return print(x)
 
-    def test_confidence_interval(self):
+    def test_confidence_interval(self):  #complete
         print(' ')
         print('Testing Confidence Interval')
         test_data = CsvReader('Data/StatData.csv').data
@@ -173,7 +171,7 @@ class MyTestCase(unittest.TestCase):
             expect_result.append(y)
         self.assertEqual(self.statobj.population_confidence_interval(dataset), expect_result)
 
-    def test_variance_of_population_proportion(self):
+    def test_variance_of_population_proportion(self): #complete
         print(' ')
         print('Testing variance of population proportion')
         test_data = CsvReader('Data/StatData.csv').data
@@ -187,20 +185,20 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statobj.variance_of_population_proportion(dataset), expect_result)
         self.assertEqual(self.statobj.result, expect_result)
 
-    def test_p_value(self):
-        print(' ')
-        print('Testing P Value')
-        test_data = CsvReader('Data/StatData.csv').data
-        dataset = []
-        for row in test_data:
-            x = int(row['Value 1'])
-            dataset.append(x)
-        x = self.statobj.p_value(dataset)
-        return print(x)
+    #def test_p_value(self):
+     #   print(' ')
+      #  print('Testing P Value')
+       # test_data = CsvReader('Data/StatData.csv').data
+        #dataset = []
+        #for row in test_data:
+         #   x = int(row['Value 1'])
+          #  dataset.append(x)
+        #x = self.statobj.p_value(dataset)
+        #return print(x)
 
-    def test_Variance_of_Sample_Proportion(self):
+    def test_Variance_of_Sample_Proportion(self): #complete
         print(' ')
-        print('Testing Varaince of Sample Proportion')
+        print('Testing Variance of Sample Proportion')
         test_data = CsvReader('Data/StatData.csv').data
         dataset = []
         for row in test_data:
