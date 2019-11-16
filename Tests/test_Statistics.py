@@ -1,9 +1,6 @@
 import unittest
 from Statistics.Statistics import Statistics
-from Calculator.Calculator import Calculator
 from CSVReading.CSVReading import CsvReader
-from pprint import pprint
-import statistics
 
 
 class MyTestCase(unittest.TestCase):
@@ -131,7 +128,7 @@ class MyTestCase(unittest.TestCase):
         print('Testing Population Correlation Coefficient')
         test_data = CsvReader('Data/StatData.csv').data
         test_data2 = CsvReader('Data/data2.csv').data
-        ans  =CsvReader('Data/StatDataAnswers.csv').data
+        ans = CsvReader('Data/StatDataAnswers.csv').data
         dataset = []
         for row in test_data:
             y = int(row['Value 1'])
@@ -200,6 +197,17 @@ class MyTestCase(unittest.TestCase):
             dataset.append(x)
         x = self.statobj.p_value(dataset)
         return print(x)
+
+    def test_Variance_of_Sample_Proportion(self):
+        print(' ')
+        print('Testing Varaince of Sample Proportion')
+        test_data = CsvReader('Data/StatData.csv').data
+        dataset = []
+        for row in test_data:
+            y = int(row['Value 1'])
+            dataset.append(y)
+        x = self.statobj.variance_of_samp_proportion(dataset)
+        self.assertEqual(x, x)
 
 
 if __name__ == '__main__':  # This runs the unittest

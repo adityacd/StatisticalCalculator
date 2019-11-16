@@ -13,6 +13,7 @@ from Statistics.Sample_Standev import samp_st_dev
 from Statistics.Sample_mean import samp_mean
 from Statistics.Variance_of_population_proportion import variance_of_population_proportion
 from Statistics.Pvalue import p_value
+from Statistics.Variance_of_sam_proportion import variance_samp_prop
 
 
 class Statistics(Calculator):
@@ -76,6 +77,10 @@ class Statistics(Calculator):
 
     def variance_of_population_proportion(self, a):
         self.result = variance_of_population_proportion(a)
+        return self.result
+
+    def variance_of_samp_proportion(self, a):
+        self.result = variance_samp_prop(a)
         return self.result
 
     def p_value(self, a):
