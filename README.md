@@ -8,6 +8,85 @@
 * Aditya Deshmukh UCID: acd53
 * karan kaul UCID: kk629
 
+## Change Log
+
+| Hash  | User                      | Date          |     change                                             |
+|-------|---------------------------|---------------|--------------------------------------------------------|
+|d91d985| Karan Kaul                |11-14-2019     |                                                        |
+|860fb7c| Aditya Deshmukh           |11-14-2019     |                                                        |
+|e64c298| Aditya Deshmukh           |11-14-2019     |                                                        |
+|8370eb7| Aditya Deshmukh           |11-14-2019     |                                                        |
+|1d1abca| Aditya Deshmukh           |11-12-2019     |                                                        |
+|8060f20| Aditya Deshmukh           |11-12-2019     |                                                        |
+|dd98b7b| Karan Kaul                |11-12-2019     |                                                        |
+|211c9ac| Karan kaul                |11-10-2019     |                                                        |
+|99d43be| Aditya Deshmukh           |11-10-2019     |                                                        |
+|d0744ea| Aditya Deshmukh           |11-10-2019     |                                                        |
+|8fd96e4| Aditya Deshmukh           |11-10-2019     |                                                        |
+|a6a27b3| Aditya Deshmukh           |11-10-2019     |                                                        |
+|c86403b| Aditya Deshmukh           |11-10-2019     |                                                        |
+|c11e238| Karan Kaul                |11-10-2019     |                                                        |
+|ccd6530| Karan Kaul                |11-10-2019     |                                                        |
+|95f68e2| Karan Kaul                |11-10-2019     |                                                        |
+|a0267fb| Aditya Deshmukh           |11-10-2019     |                                                        |
+|36ec253| Aditya Deshmukh           |11-10-2019     |                                                        |
+|14b1015| Aditya Deshmukh           |11-10-2019     |                                                        |
+|e1583ec| Aditya Deshmukh           |11-10-2019     |                                                        |
+|38f781b| Aditya Deshmukh           |11-10-2019     |                                                        |
+|9181e7b| Karan Kaul                |11-10-2019     |                                                        |
+|32f159c| Karan Kaul                |11-10-2019     |                                                        |
+|8b525ce| Karan Kaul                |11-10-2019     |                                                        |
+|b25b578| Karan Kaul                |11-10-2019     |                                                        |
+|80c856f| Karan Kaul                |11-10-2019     |                                                        |
+|629eb82| Karan Kaul                |11-10-2019     |                                                        |
+|bc9abc1| Karan Kaul                |11-10-2019     |                                                        |
+|c2b56d6| Karan Kaul                |11-10-2019     |                                                        |
+|967c5f3| Karan Kaul                |11-10-2019     |                                                        |
+|94f4112| Karan Kaul                |11-10-2019     |                                                        |
+|9234b8e| Karan Kaul                |11-10-2019     |                                                        |
+|561f941| Karan Kaul                |11-10-2019     |                                                        |
+|f38b193| Aditya Deshmukh           |11-10-2019     |                                                        |
+|4f4c202| Aditya Deshmukh           |11-10-2019     |                                                        |
+|bb56cba| Aditya Deshmukh           |11-10-2019     |                                                        |
+|3c02fd5| karan Kaul                |11-10-2019     |                                                        |
+|1331400| Karan Kaul                |11-10-2019     |                                                        |
+|a87a63e| Karan Kaul                |11-10-2019     |                                                        |
+|0dd0a57| Karan Kaul                |11-10-2019     |                                                        |
+|1935c8e| Karan Kaul                |11-10-2019     |                                                        |
+|cf665ee| Karan Kaul                |11-10-2019     |                                                        |
+|a6b63a3| Karan Kaul                |11-10-2019     |                                                        |
+|17c27e8| Karan Kaul                |11-10-2019     |                                                        |
+|3824635| Karan Kaul                |11-10-2019     |                                                        |
+|430ade0| Karan Kaul                |11-10-2019     |                                                        |
+|d29a24a| Karan Kaul                |11-10-2019     |                                                        |
+|92dfa58| Aditya Deshmukh           |11-10-2019     |                                                        |
+|eb569ae| Aditya Deshmukh           |11-10-2019     |                                                        |
+|d855cbd| Aditya Deshmukh           |11-10-2019     |                                                        |
+|d63067c| Aditya Deshmukh           |11-10-2019     |                                                        |
+|ef8a39a| Aditya Deshmukh           |11-10-2019     |                                                        |
+|e577f83| Aditya Deshmukh           |11-10-2019     |                                                        |
+|c689718| Aditya Deshmukh           |11-10-2019     |                                                        |
+|faaf508| Aditya Deshmukh           |11-10-2019     |                                                        |
+|38e4a01| Aditya Deshmukh           |11-10-2019     |                                                        |
+|5c7a5de| Aditya Deshmukh           |11-10-2019     |                                                        |
+|e59b787| Aditya Deshmukh           |11-10-2019     |                                                        |
+|9b39fbd| Aditya Deshmukh           |11-10-2019     |                                                        |
+|782d2fe| Aditya Deshmukh           |11-10-2019     |                                                        |
+|57611e9| Aditya Deshmukh           |11-10-2019     |                                                        |
+|bbe8295| Aditya Deshmukh           |11-10-2019     |                                                        |
+|daf7e02| Aditya Deshmukh           |11-10-2019     |                                                        |
+|7d14cbc| Aditya Deshmukh           |11-10-2019     |                                                        |
+|9204a9e| Karan Kaul                |11-10-2019     |                                                        |
+|78017f1| Aditya Deshmukh           |11-10-2019     |                                                        |
+|338fcf2| Karan Kaul                |11-10-2019     |                                                        |
+|c1a3639| Aditya Deshmukh           |11-10-2019     |                                                        |
+|510054e| Karan Kaul                |11-10-2019     |                                                        |
+|49f7fae| Karan Kaul                |11-10-2019     |                                                        |
+|be2e5b1| Karan Kaul                |11-10-2019     |                                                        |
+|6afb7f1| Karan Kaul                |11-10-2019     |                                                        |
+|ff3c279| Karan Kaul                |11-10-2019     |                                                        |
+|0ffaaee| Aditya Deshmukh           |11-08-2019     |                                                        |
+
 ### Function
 Python has functions, which is a group of connected statements that carry out a particular task. Functions help break our program into little and modular chunks. Since the program becomes  larger as it progresses functions make it more organized,systematic and manageable. Also funtions help avoid repetition and helps make the code more reusable. 
 
