@@ -14,7 +14,7 @@
 |-------|---------------------------|---------------|------------------------------------------------------------------|
 |d91d985| Karan Kaul                |11-14-2019     |        Feature: Added variance of population proportion                                                
 |860fb7c| Aditya Deshmukh           |11-14-2019     |      Fix: Syntax fix                                                  |
-|e64c298| Aditya Deshmukh           |11-14-2019     |                                                        |
+|e64c298| Aditya Deshmukh           |11-14-2019     |     Feature: Created confidence interval and testing                                                   |
 |8370eb7| Aditya Deshmukh           |11-14-2019     |                                                        |
 |1d1abca| Aditya Deshmukh           |11-12-2019     |                                                        |
 |8060f20| Aditya Deshmukh           |11-12-2019     |                                                        |
