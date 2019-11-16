@@ -10,9 +10,9 @@ def zscore(numbers):  # complete
     sig = standard_deviation(numbers)
     n = len(numbers)
     zsc = []
-    for i in range(0, n, 1):
+    for i in numbers:
         z = 0
-        z = round(float(division(sig, subtraction(u, numbers[i]))), 3)
+        z = round(division(sig, subtraction(u, i)), 3)
         # z = float((numbers[i] - u) / sig)
         zsc.append(z)
     return zsc
