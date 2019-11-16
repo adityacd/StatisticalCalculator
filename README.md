@@ -10,10 +10,10 @@
 
 ## Change Log
 
-| Hash  | User                      | Date          |     change                                             |
-|-------|---------------------------|---------------|--------------------------------------------------------|
-|d91d985| Karan Kaul                |11-14-2019     |                                                        |
-|860fb7c| Aditya Deshmukh           |11-14-2019     |                                                        |
+| Hash  | User                      | Date          |          Changelog                                             |                                              
+|-------|---------------------------|---------------|------------------------------------------------------------------|
+|d91d985| Karan Kaul                |11-14-2019     |        Feature: Added variance of population proportion                                                
+|860fb7c| Aditya Deshmukh           |11-14-2019     |      Fix: Syntax fix                                                  |
 |e64c298| Aditya Deshmukh           |11-14-2019     |                                                        |
 |8370eb7| Aditya Deshmukh           |11-14-2019     |                                                        |
 |1d1abca| Aditya Deshmukh           |11-12-2019     |                                                        |
@@ -85,7 +85,20 @@
 |be2e5b1| Karan Kaul                |11-10-2019     |                                                        |
 |6afb7f1| Karan Kaul                |11-10-2019     |                                                        |
 |ff3c279| Karan Kaul                |11-10-2019     |                                                        |
-|0ffaaee| Aditya Deshmukh           |11-08-2019     |                                                        |
+|0ffaaee| Aditya Deshmukh           |11-08-2019     | 
+|e275691| Aditya Deshmukh           |11-08-2019     |
+|4e51c16| Aditya Deshmukh           |11-08-2019     |
+|257b284| Aditya Deshmukh           |11-08-2019     |
+|b6e4c6f| Aditya Deshmukh           |11-08-2019     |
+|1d6eafb| Aditya Deshmukh           |11-08-2019     |     
+|1f4f640| Aditya Deshmukh           |11-08-2019     |
+|49e18bc| Aditya Deshmukh           |11-08-2019     |
+|acb594c| Aditya Deshmukh           |11-08-2019     |
+|9d0c453| Aditya Deshmukh           |11-08-2019     |
+|9e5782b| Aditya Deshmukh           |11-08-2019     |
+|27d9566| Aditya Deshmukh           |11-08-2019     |
+|bdbbdec| Aditya Deshmukh           |11-08-2019     |
+|574123d| Aditya Deshmukh           |11-08-2019     |
 
 ### Function
 Python has functions, which is a group of connected statements that carry out a particular task. Functions help break our program into little and modular chunks. Since the program becomes  larger as it progresses functions make it more organized,systematic and manageable. Also funtions help avoid repetition and helps make the code more reusable. 
