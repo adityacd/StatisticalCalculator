@@ -12,6 +12,7 @@ from Statistics.ZScore import zscore
 from Statistics.Sample_Standev import samp_st_dev
 from Statistics.Sample_mean import samp_mean
 from Statistics.Variance_of_population_proportion import variance_of_population_proportion
+from Statistics.Pvalue import p_value
 
 
 class Statistics(Calculator):
@@ -77,4 +78,6 @@ class Statistics(Calculator):
         self.result = variance_of_population_proportion(a)
         return self.result
 
-
+    def p_value(self, a):
+        self.result = p_value(a)
+        return self.result
