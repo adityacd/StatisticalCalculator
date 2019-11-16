@@ -13,9 +13,6 @@ import statistics
 def samp_st_dev(numbers):
     ss = random.randint(1, len(numbers))
     new_values = getSample(numbers, ss)
-
-
-
     c = 0
     t = 0
     n = len(new_values)
