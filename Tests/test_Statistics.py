@@ -26,8 +26,9 @@ class MyTestCase(unittest.TestCase):
             a = int(row['Value 1'])
             dataset.append(a)
         for column in answer:
-            result = float((column['Mean']))
-        self.assertEqual(self.statobj.population_mean(dataset), result)
+            expect_result = float((column['Mean']))
+        self.assertEqual(self.statobj.population_mean(dataset), expect_result)
+        self.assertEqual(self.statobj.result, expect_result)
 
     def test_Median_calculator(self):  # complete
         print(' ')
@@ -39,8 +40,9 @@ class MyTestCase(unittest.TestCase):
             y = int(row['Value 1'])
             dataset.append(y)
         for column in answer:
-            result = float((column['Median']))
-        self.assertEqual(self.statobj.population_median(dataset), result)
+            expect_result = float((column['Median']))
+        self.assertEqual(self.statobj.population_median(dataset), expect_result)
+        self.assertEqual(self.statobj.result, expect_result)
 
     def test_Mode_calculator(self):  # complete
         print(' ')
@@ -52,8 +54,9 @@ class MyTestCase(unittest.TestCase):
             y = int(row['Value 1'])
             dataset.append(y)
         for column in answer:
-            result = float((column['Mode']))
-        self.assertEqual(self.statobj.population_mode(dataset), result)
+            expect_result = float((column['Mode']))
+        self.assertEqual(self.statobj.population_mode(dataset), expect_result)
+        self.assertEqual(self.statobj.result, expect_result)
 
     def test_Population_Standard_Deviation_calculator(self):  # complete
         print(' ')
@@ -65,8 +68,9 @@ class MyTestCase(unittest.TestCase):
             y = int(row['Value 1'])
             dataset.append(y)
         for column in answer:
-            result = float((column['StanDeviation']))
-        self.assertEqual(self.statobj.population_standard_deviation(dataset), result)
+            expect_result = float((column['StanDeviation']))
+        self.assertEqual(self.statobj.population_standard_deviation(dataset), expect_result)
+        self.assertEqual(self.statobj.result, expect_result)
 
     def test_Population_Variance_calculator(self):  # complete
         print(' ')
@@ -78,8 +82,9 @@ class MyTestCase(unittest.TestCase):
             y = int(row['Value 1'])
             dataset.append(y)
         for column in answer:
-            result = float((column['Variance']))
-        self.assertEqual(self.statobj.population_variance(dataset), result)
+            expect_result = float((column['Variance']))
+        self.assertEqual(self.statobj.population_variance(dataset), expect_result)
+        self.assertEqual(self.statobj.result, expect_result)
 
     def test_Sample_Standard_Deviation_calculator(self):  # complete
         print(' ')
@@ -105,7 +110,7 @@ class MyTestCase(unittest.TestCase):
         x, z = self.statobj.samplemean(dataset)
         self.assertEqual(x, z)
 
-    def test_z_score_calculator(self):  #complete
+    def test_z_score_calculator(self):  # complete
         print(' ')
         print('Testing ZScore')
         test_data = CsvReader('Data/StatData.csv').data
@@ -119,12 +124,14 @@ class MyTestCase(unittest.TestCase):
             z = float(row["Result"])
             data_answer1.append(z)
         self.assertEqual(self.statobj.z_score(dataset), data_answer1)
+        self.assertEqual(self.statobj.result, data_answer1)
 
-    def test_population_correlation_coefficient(self): #complete
+    def test_population_correlation_coefficient(self):  # complete
         print(' ')
         print('Testing Population Correlation Coefficient')
         test_data = CsvReader('Data/StatData.csv').data
         test_data2 = CsvReader('Data/data2.csv').data
+        ans  =CsvReader('Data/StatDataAnswers.csv').data
         dataset = []
         for row in test_data:
             y = int(row['Value 1'])
@@ -133,34 +140,67 @@ class MyTestCase(unittest.TestCase):
         for row in test_data2:
             k = float(row['Result'])
             dataset2.append(k)
-        return self.statobj.population_correlation_coefficient(dataset, dataset2)
+        for row in ans:
+            expect_result = float(row['Pop_corrcoef'])
+        self.assertEqual(self.statobj.population_correlation_coefficient(dataset, dataset2), expect_result)
+        self.assertEqual(self.statobj.result, expect_result)
 
-    def test_proportion_calculator(self):   #complete
+    def test_proportion_calculator(self):  # complete
         print(' ')
         print('Testing Proportion')
         test_data = CsvReader('Data/StatData.csv').data
+        answer = CsvReader('Data/StatDataAnswers.csv').data
         dataset = []
         for row in test_data:
             y = int(row['Value 1'])
             dataset.append(y)
-        return self.statobj.proportion(dataset)
+        for column in answer:
+            expect_result = float((column['Proportion']))
+        self.assertEqual(self.statobj.proportion(dataset), expect_result)
+        self.assertEqual(self.statobj.result, expect_result)
+        # x = self.statobj.proportion(dataset)
+        # return print(x)
 
     def test_confidence_interval(self):
         print(' ')
         print('Testing Confidence Interval')
         test_data = CsvReader('Data/StatData.csv').data
+        ans = CsvReader('Data/confidenceresult.csv').data
         dataset = []
         for row in test_data:
             x = int(row['Value 1'])
             dataset.append(x)
-        return self.statobj.population_confidence_interval(dataset)
+        expect_result = []
+        for row in ans:
+            y = float(row['Result'])
+            expect_result.append(y)
+        self.assertEqual(self.statobj.population_confidence_interval(dataset), expect_result)
 
     def test_variance_of_population_proportion(self):
         print(' ')
         print('Testing variance of population proportion')
         test_data = CsvReader('Data/StatData.csv').data
+        ans = CsvReader('Data/StatDataAnswers.csv').data
         dataset = []
         for row in test_data:
             x = int(row['Value 1'])
             dataset.append(x)
-        return self.statobj.variance_of_population_proportion(dataset)
+        for row in ans:
+            expect_result = float(row['Var_pop_prop'])
+        self.assertEqual(self.statobj.variance_of_population_proportion(dataset), expect_result)
+        self.assertEqual(self.statobj.result, expect_result)
+
+    def test_p_value(self):
+        print(' ')
+        print('Testing P Value')
+        test_data = CsvReader('Data/StatData.csv').data
+        dataset = []
+        for row in test_data:
+            x = int(row['Value 1'])
+            dataset.append(x)
+        x = self.statobj.p_value(dataset)
+        return print(x)
+
+
+if __name__ == '__main__':  # This runs the unittest
+    unittest.main()
