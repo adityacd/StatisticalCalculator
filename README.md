@@ -47,58 +47,58 @@
 |561f941| Karan Kaul                |11-10-2019     |          Fix:- Updated standard deviation                                              |
 |f38b193| Aditya Deshmukh           |11-10-2019     |               Merge branch 'master' of https://github.com/adityacd/StatisticalCalcu…                                          |
 |4f4c202| Aditya Deshmukh           |11-10-2019     |      Feature: Setup the test for median,mode,standard deviation,variance                                                  |
-|bb56cba| Aditya Deshmukh           |11-10-2019     |                                                        |
-|3c02fd5| karan Kaul                |11-10-2019     |                                                        |
-|1331400| Karan Kaul                |11-10-2019     |                                                        |
-|a87a63e| Karan Kaul                |11-10-2019     |                                                        |
-|0dd0a57| Karan Kaul                |11-10-2019     |                                                        |
-|1935c8e| Karan Kaul                |11-10-2019     |                                                        |
-|cf665ee| Karan Kaul                |11-10-2019     |                                                        |
-|a6b63a3| Karan Kaul                |11-10-2019     |                                                        |
-|17c27e8| Karan Kaul                |11-10-2019     |                                                        |
-|3824635| Karan Kaul                |11-10-2019     |                                                        |
-|430ade0| Karan Kaul                |11-10-2019     |                                                        |
-|d29a24a| Karan Kaul                |11-10-2019     |                                                        |
-|92dfa58| Aditya Deshmukh           |11-10-2019     |                                                        |
-|eb569ae| Aditya Deshmukh           |11-10-2019     |                                                        |
-|d855cbd| Aditya Deshmukh           |11-10-2019     |                                                        |
-|d63067c| Aditya Deshmukh           |11-10-2019     |                                                        |
-|ef8a39a| Aditya Deshmukh           |11-10-2019     |                                                        |
-|e577f83| Aditya Deshmukh           |11-10-2019     |                                                        |
-|c689718| Aditya Deshmukh           |11-10-2019     |                                                        |
-|faaf508| Aditya Deshmukh           |11-10-2019     |                                                        |
-|38e4a01| Aditya Deshmukh           |11-10-2019     |                                                        |
-|5c7a5de| Aditya Deshmukh           |11-10-2019     |                                                        |
-|e59b787| Aditya Deshmukh           |11-10-2019     |                                                        |
-|9b39fbd| Aditya Deshmukh           |11-10-2019     |                                                        |
-|782d2fe| Aditya Deshmukh           |11-10-2019     |                                                        |
-|57611e9| Aditya Deshmukh           |11-10-2019     |                                                        |
-|bbe8295| Aditya Deshmukh           |11-10-2019     |                                                        |
-|daf7e02| Aditya Deshmukh           |11-10-2019     |                                                        |
-|7d14cbc| Aditya Deshmukh           |11-10-2019     |                                                        |
-|9204a9e| Karan Kaul                |11-10-2019     |                                                        |
-|78017f1| Aditya Deshmukh           |11-10-2019     |                                                        |
-|338fcf2| Karan Kaul                |11-10-2019     |                                                        |
-|c1a3639| Aditya Deshmukh           |11-10-2019     |                                                        |
-|510054e| Karan Kaul                |11-10-2019     |                                                        |
-|49f7fae| Karan Kaul                |11-10-2019     |                                                        |
-|be2e5b1| Karan Kaul                |11-10-2019     |                                                        |
-|6afb7f1| Karan Kaul                |11-10-2019     |                                                        |
-|ff3c279| Karan Kaul                |11-10-2019     |                                                        |
-|0ffaaee| Aditya Deshmukh           |11-08-2019     | 
-|e275691| Aditya Deshmukh           |11-08-2019     |
-|4e51c16| Aditya Deshmukh           |11-08-2019     |
-|257b284| Aditya Deshmukh           |11-08-2019     |
-|b6e4c6f| Aditya Deshmukh           |11-08-2019     |
-|1d6eafb| Aditya Deshmukh           |11-08-2019     |     
-|1f4f640| Aditya Deshmukh           |11-08-2019     |
-|49e18bc| Aditya Deshmukh           |11-08-2019     |
-|acb594c| Aditya Deshmukh           |11-08-2019     |
-|9d0c453| Aditya Deshmukh           |11-08-2019     |
-|9e5782b| Aditya Deshmukh           |11-08-2019     |
-|27d9566| Aditya Deshmukh           |11-08-2019     |
-|bdbbdec| Aditya Deshmukh           |11-08-2019     |
-|574123d| Aditya Deshmukh           |11-08-2019     |
+|bb56cba| Aditya Deshmukh           |11-10-2019     |    Fix: Syntax Fixes                                                    |
+|3c02fd5| karan Kaul                |11-10-2019     |      Fix:- Fixed standard deviation definiton                                                  |
+|1331400| Karan Kaul                |11-10-2019     |       Feature:- Added standard deviation definition                                                 |
+|a87a63e| Karan Kaul                |11-10-2019     |        Feature:- added definition of mode                                                |
+|0dd0a57| Karan Kaul                |11-10-2019     |   Feature:- added definition of median                                                     |
+|1935c8e| Karan Kaul                |11-10-2019     |   Fix:- updated readme                                                     |
+|cf665ee| Karan Kaul                |11-10-2019     |     Feature:- Added population mean definition                                                   |
+|a6b63a3| Karan Kaul                |11-10-2019     |   Feature:- Added functions definition                                                     |
+|17c27e8| Karan Kaul                |11-10-2019     |    Feature:- Added team members name                                                    |
+|3824635| Karan Kaul                |11-10-2019     |      Fix:- fixed variance of population proportion                                                  |
+|430ade0| Karan Kaul                |11-10-2019     |   Feature:- Added variance of population proportion                                                     |
+|d29a24a| Karan Kaul                |11-10-2019     |    Fix: Loop issue solved and updated                                                    |
+|92dfa58| Aditya Deshmukh           |11-10-2019     |     Fix: Dataset syntax error solved                                                   |
+|eb569ae| Aditya Deshmukh           |11-10-2019     |     Fix: Fixed the code                                                   |
+|d855cbd| Aditya Deshmukh           |11-10-2019     |   Task: Tested the mean statistics with dataset                                                     |
+|d63067c| Aditya Deshmukh           |11-10-2019     |   Task: Csv dataset initialized                                                     |
+|ef8a39a| Aditya Deshmukh           |11-10-2019     |  Fix: Code Fix                                                      |
+|e577f83| Aditya Deshmukh           |11-10-2019     |  Task: Added the StatDataAnswers.csv                                                      |
+|c689718| Aditya Deshmukh           |11-10-2019     |    Task: Created StatDataset                                                    |
+|faaf508| Aditya Deshmukh           |11-10-2019     |    Feature: Created and Setup the Statistics.py                                                    |
+|38e4a01| Aditya Deshmukh           |11-10-2019     |           Fix: Fix in csvtest                                             |
+|5c7a5de| Aditya Deshmukh           |11-10-2019     |           Fix: Fix in csvreading                                             |
+|e59b787| Aditya Deshmukh           |11-10-2019     |        Fix: Fix in csvtest                                                |
+|9b39fbd| Aditya Deshmukh           |11-10-2019     |        Fix: Fix in csvtest                                                |
+|782d2fe| Aditya Deshmukh           |11-10-2019     |      Merge remote-tracking branch 'origin/master'                                                  |
+|57611e9| Aditya Deshmukh           |11-10-2019     |    Fix: Fix in csvtest                                                    |
+|bbe8295| Aditya Deshmukh           |11-10-2019     |       Merge pull request                                                  |
+|daf7e02| Aditya Deshmukh           |11-10-2019     |   Feature: Added the CSVReading test                                                     |
+|7d14cbc| Aditya Deshmukh           |11-10-2019     |       Merge pull request #3                                                 |
+|9204a9e| Karan Kaul                |11-10-2019     |   Feature:- Added Population corelation coefficient                                                     |
+|78017f1| Aditya Deshmukh           |11-10-2019     |                 Merge pull request #2                                        |
+|338fcf2| Karan Kaul                |11-10-2019     |  Feature:- Added Confidenceinterval                                                      |
+|c1a3639| Aditya Deshmukh           |11-10-2019     |Merge pull request #1                                                        |
+|510054e| Karan Kaul                |11-10-2019     |  Feature:- Added proportion                                                      |
+|49f7fae| Karan Kaul                |11-10-2019     |    Feature:- Added sampleMean                                                    |
+|be2e5b1| Karan Kaul                |11-10-2019     |    Feature:- Added sample_method.py                                                    |
+|6afb7f1| Karan Kaul                |11-10-2019     |      Merge remote-tracking branch 'origin/master'                                                  |
+|ff3c279| Karan Kaul                |11-10-2019     |   Fix: testing                                                     |
+|0ffaaee| Aditya Deshmukh           |11-08-2019     | Merge remote-tracking branch 'origin/master'                       |
+|e275691| Aditya Deshmukh           |11-08-2019     |Task: Created and setup the test_decorators.py file                 |
+|4e51c16| Aditya Deshmukh           |11-08-2019     |ask: Created __init__.py file                                       |
+|257b284| Aditya Deshmukh           |11-08-2019     |Task: Added the travis.ci to the readme                             |
+|b6e4c6f| Aditya Deshmukh           |11-08-2019     |Fix: Fixed the filepath                                             |
+|1d6eafb| Aditya Deshmukh           |11-08-2019     | Fix: Rearranged the directories                                    |    
+|1f4f640| Aditya Deshmukh           |11-08-2019     |Task: Setup setup.py                                                |
+|49e18bc| Aditya Deshmukh           |11-08-2019     |Task: Setup Dockerfile                                              |
+|acb594c| Aditya Deshmukh           |11-08-2019     |Task: Setup .travis.yml                                             |
+|9d0c453| Aditya Deshmukh           |11-08-2019     |Task: Readme update                                                 |
+|9e5782b| Aditya Deshmukh           |11-08-2019     |Merge remote-tracking branch 'origin/master'                        |
+|27d9566| Aditya Deshmukh           |11-08-2019     |Task: Readme update                                                 |
+|bdbbdec| Aditya Deshmukh           |11-08-2019     |Delete README.md                                                    |
+|574123d| Aditya Deshmukh           |11-08-2019     |Task: Readme update                                                 |
 
 ### Function
 Python has functions, which is a group of connected statements that carry out a particular task. Functions help break our program into little and modular chunks. Since the program becomes  larger as it progresses functions make it more organized,systematic and manageable. Also funtions help avoid repetition and helps make the code more reusable. 
