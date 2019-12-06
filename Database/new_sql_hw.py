@@ -1,3 +1,4 @@
+#Added the required Libraries
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -5,6 +6,7 @@ from sqlalchemy import Column, String, Integer, Date, Table, ForeignKey, Boolean
 from sqlalchemy.orm import relationship, backref
 from datetime import date
 
+#Created the engine to establish connection to DB
 engine = create_engine('sqlite:////web/Sqlite-Data/Movies_Database.db')
 Session = sessionmaker(bind=engine)
 
@@ -17,7 +19,7 @@ movies_actors_association = Table(
 )
 
 
-class Movie(Base):
+class Movie(Base): #create class Movie
     __tablename__ = 'movies'
 
     id = Column(Integer, primary_key=True)
@@ -30,7 +32,7 @@ class Movie(Base):
         self.release_date = release_date
 
 
-class Actor(Base):
+class Actor(Base): #create class Actor
     __tablename__ = 'actors'
 
     id = Column(Integer, primary_key=True)
@@ -42,7 +44,7 @@ class Actor(Base):
         self.birthday = birthday
 
 
-class Stuntman(Base):
+class Stuntman(Base): #create class Stuntman
     __tablename__ = 'stuntmen'
 
     id = Column(Integer, primary_key=True)
@@ -57,7 +59,7 @@ class Stuntman(Base):
         self.actor = actor
 
 
-class ContactDetails(Base):
+class ContactDetails(Base): #create class ContactDetails
     __tablename__ = 'contact_details'
 
     id = Column(Integer, primary_key=True)
@@ -75,32 +77,31 @@ class ContactDetails(Base):
 Base.metadata.create_all(engine)
 
 Base.metadata.bind = engine
-
+#Created Session
 DBSession = sessionmaker(bind=engine)
 session = DBSession()
 
-# 4 - create movies
+#Added Movies
 bourne_identity = Movie("The Bourne Identity", date(2002, 10, 11))
 furious_7 = Movie("Furious 7", date(2015, 4, 2))
 pain_and_gain = Movie("Pain & Gain", date(2013, 8, 23))
 
-# 5 - creates actors
+#Added Actors
 matt_damon = Actor("Matt Damon", date(1970, 10, 8))
 dwayne_johnson = Actor("Dwayne Johnson", date(1972, 5, 2))
 mark_wahlberg = Actor("Mark Wahlberg", date(1971, 6, 5))
 
-# 7 - add contact details to actors
+#Added Contact Details
 matt_contact = ContactDetails("415 555 2671", "Burbank, CA", matt_damon)
 dwayne_contact = ContactDetails("423 555 5623", "Glendale, CA", dwayne_johnson)
 dwayne_contact_2 = ContactDetails("421 444 2323", "West Hollywood, CA", dwayne_johnson)
 mark_contact = ContactDetails("421 333 9428", "Glendale, CA", mark_wahlberg)
 
-# 8 - create stuntmen
+#Added Stuntman
 matt_stuntman = Stuntman("John Doe", True, matt_damon)
 dwayne_stuntman = Stuntman("John Roe", True, dwayne_johnson)
 mark_stuntman = Stuntman("Richard Roe", True, mark_wahlberg)
 
-# 9 - persists data
 session.add(bourne_identity)
 session.add(furious_7)
 session.add(pain_and_gain)
@@ -114,12 +115,12 @@ session.add(matt_stuntman)
 session.add(dwayne_stuntman)
 session.add(mark_stuntman)
 
-# 10 - commit and close session
+#Committed the data
 session.commit()
 
+#queries
 movies = session.query(Movie).all()
 
-# 4 - print movies' details
 print('\n### All movies:')
 for movie in movies:
     print(f'{movie.title} was released on {movie.release_date}')
@@ -134,7 +135,6 @@ for movie in movies:
     print(f'{movie.title} was released after 2015')
 print('')
 
-# 6 - movies that Dwayne Johnson participated
 the_rock_movies = session.query(Movie) \
     .join(Actor, Movie.actors) \
     .filter(Actor.name == 'Dwayne Johnson') \
@@ -145,7 +145,6 @@ for movie in the_rock_movies:
     print(f'The Rock starred in {movie.title}')
 print('')
 
-# 7 - get actors that have house in Glendale
 glendale_stars = session.query(Actor) \
     .join(ContactDetails) \
     .filter(ContactDetails.address.ilike('%glendale%')) \
