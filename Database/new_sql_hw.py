@@ -19,3 +19,15 @@ class Movie(Base):
     def __init__(self, title, release_date):
         self.title = title
         self.release_date = release_date
+
+
+class Actor(Base):
+    __tablename__ = 'actors'
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+    birthday = Column(Date)
+
+    def __init__(self, name, birthday):
+        self.name = name
+        self.birthday = birthday
