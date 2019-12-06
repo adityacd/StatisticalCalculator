@@ -4,4 +4,4 @@ COPY . /web
 WORKDIR /web
 RUN pip install -r ./requirements.txt
 ENTRYPOINT ["python"]
-CMD ["/web/Database/create.py"]
+CMD ["/web/Database/new_sql_hw.py"]
