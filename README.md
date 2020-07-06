@@ -1,3 +1,6 @@
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)      [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)   [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+
 [![Build Status](https://travis-ci.org/adityacd/StatisticalCalculator.svg?branch=master)](https://travis-ci.org/adityacd/StatisticalCalculator)
 
 # Statistical Calculator
@@ -39,6 +42,7 @@
 |b25b578| Karan Kaul                |11-10-2019     |     Feature:- Added proportion definition                                                   |
 |80c856f| Karan Kaul                |11-10-2019     |  Feature:- Added P value Definition                                                      |
 |629eb82| Karan Kaul                |11-10-2019     |        Feature:- Added population variance                                                |
+
 |bc9abc1| Karan Kaul                |11-10-2019     | Feature:- added confidence interval                                                       |
 |c2b56d6| Karan Kaul                |11-10-2019     |    Feature:- Added population correlation coefficient                                                    |
 |967c5f3| Karan Kaul                |11-10-2019     |    Feature:- added z score                                                    |
