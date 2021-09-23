@@ -42,7 +42,7 @@
 |b25b578| Karan Kaul                |11-10-2019     |     Feature:- Added proportion definition                                                   |
 |80c856f| Karan Kaul                |11-10-2019     |  Feature:- Added P value Definition                                                      |
 |629eb82| Karan Kaul                |11-10-2019     |        Feature:- Added population variance                                                |
-
+  |
 |bc9abc1| Karan Kaul                |11-10-2019     | Feature:- added confidence interval                                                       |
 |c2b56d6| Karan Kaul                |11-10-2019     |    Feature:- Added population correlation coefficient                                                    |
 |967c5f3| Karan Kaul                |11-10-2019     |    Feature:- added z score                                                    |
@@ -75,19 +75,19 @@
 |5c7a5de| Aditya Deshmukh           |11-10-2019     |           Fix: Fix in csvreading                                             |
 |e59b787| Aditya Deshmukh           |11-10-2019     |        Fix: Fix in csvtest                                                |
 |9b39fbd| Aditya Deshmukh           |11-10-2019     |        Fix: Fix in csvtest                                                |
-|782d2fe| Aditya Deshmukh           |11-10-2019     |      Merge remote-tracking branch 'origin/master'                                                  |
-|57611e9| Aditya Deshmukh           |11-10-2019     |    Fix: Fix in csvtest                                                    |
-|bbe8295| Aditya Deshmukh           |11-10-2019     |       Merge pull request                                                  |
-|daf7e02| Aditya Deshmukh           |11-10-2019     |   Feature: Added the CSVReading test                                                     |
-|7d14cbc| Aditya Deshmukh           |11-10-2019     |       Merge pull request #3                                                 |
-|9204a9e| Karan Kaul                |11-10-2019     |   Feature:- Added Population corelation coefficient                                                     |
-|78017f1| Aditya Deshmukh           |11-10-2019     |                 Merge pull request #2                                        |
-|338fcf2| Karan Kaul                |11-10-2019     |  Feature:- Added Confidenceinterval                                                      |
-|c1a3639| Aditya Deshmukh           |11-10-2019     |Merge pull request #1                                                        |
-|510054e| Karan Kaul                |11-10-2019     |  Feature:- Added proportion                                                      |
-|49f7fae| Karan Kaul                |11-10-2019     |    Feature:- Added sampleMean                                                    |
-|be2e5b1| Karan Kaul                |11-10-2019     |    Feature:- Added sample_method.py                                                    |
-|6afb7f1| Karan Kaul                |11-10-2019     |      Merge remote-tracking branch 'origin/master'                                                  |
+|782d2fe| Aditya Deshmukh           |11-10-2019     |      Merge remote-tracking branch 'origin/master'                  |
+|57611e9| Aditya Deshmukh           |11-10-2019     |    Fix: Fix in csvtest                                             |
+|bbe8295| Aditya Deshmukh           |11-10-2019     |       Merge pull request                                           |
+|daf7e02| Aditya Deshmukh           |11-10-2019     |   Feature: Added the CSVReading test                               |
+|7d14cbc| Aditya Deshmukh           |11-10-2019     |       Merge pull request #3                                        |
+|9204a9e| Karan Kaul                |11-10-2019     |   Feature:- Added Population corelation coefficient                |
+|78017f1| Aditya Deshmukh           |11-10-2019     |                 Merge pull request #2                              |
+|338fcf2| Karan Kaul                |11-10-2019     |  Feature:- Added Confidenceinterval                                |
+|c1a3639| Aditya Deshmukh           |11-10-2019     |Merge pull request #1                                               |
+|510054e| Karan Kaul                |11-10-2019     |  Feature:- Added proportion                                        |
+|49f7fae| Karan Kaul                |11-10-2019     |    Feature:- Added sampleMean                                      |
+|be2e5b1| Karan Kaul                |11-10-2019     |    Feature:- Added sample_method.py                                |
+|6afb7f1| Karan Kaul                |11-10-2019     |      Merge remote-tracking branch 'origin/master'                  |
 |ff3c279| Karan Kaul                |11-10-2019     |   Fix: testing                                                     |
 |0ffaaee| Aditya Deshmukh           |11-08-2019     | Merge remote-tracking branch 'origin/master'                       |
 |e275691| Aditya Deshmukh           |11-08-2019     |Task: Created and setup the test_decorators.py file                 |
